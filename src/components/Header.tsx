@@ -22,7 +22,7 @@ export function Header() {
         <nav className="bg-gray-400 border-gray-200 dark:bg-gray-900">
             <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
                 <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <Image src="./logo.png" className="h-20" alt="Flowbite Logo" />
+                    <Image src="/logo.png" className="h-20" alt="Flowbite Logo" />
                     <h1 className="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">
                         Adote <span className="underline underline-offset-3 decoration-8 decoration-blue-400 dark:decoration-blue-600">
                         .com</span>

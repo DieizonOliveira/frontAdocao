@@ -60,7 +60,7 @@ export default function Cadastro() {
     </h1>
 
     <a className="flex items-center space-x-3 rtl:space-x-reverse">
-        <Image src="./pegada.png" className="h-20" alt="Logo" />
+        <Image src="/pegada.png" className="h-20" alt="Logo" />
     </a>
 </div>
 
