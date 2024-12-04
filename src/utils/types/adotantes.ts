@@ -1,8 +1,8 @@
 export interface AdotanteI {
-    id: String 
-    nome: String 
-    fone: String 
-    endereco: String  
-    email: String   
+    id: string  
+    nome: string  
+    fone: string  
+    endereco: string  
+    email: string   
 
 }

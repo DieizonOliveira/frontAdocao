@@ -10,8 +10,8 @@ foto: string
 descricao: string
 createdAt: Date
 updatedAt: Date
-porte: String
+porte: string
 especie: EspecieI
-especieId: Number
+especieId: number
       
 }

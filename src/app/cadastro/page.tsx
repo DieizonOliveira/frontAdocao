@@ -3,6 +3,7 @@
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import Image from 'next/image';
 
 type Inputs = {
     nome: string;
@@ -59,7 +60,7 @@ export default function Cadastro() {
     </h1>
 
     <a className="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="./pegada.png" className="h-20" alt="Logo" />
+        <Image src="./pegada.png" className="h-20" alt="Logo" />
     </a>
 </div>
 

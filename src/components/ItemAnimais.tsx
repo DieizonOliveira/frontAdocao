@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaw, faRuler, faInfoCircle  } from '@fortawesome/free-solid-svg-icons';
 import { CakeIcon } from '@heroicons/react/24/outline';
 import { faMars, faVenus } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image';
 
 
 // Função para escolher o ícone de sexo
@@ -23,7 +24,7 @@ export function ItemAnimais({ data }: { data: AnimalI }) {
         <div className="max-w-sm bg-gray-200 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <Link href={`descricao/${data.id}`}>
                 <div className="w-full h-80 overflow-hidden">
-                    <img
+                    <Image
                         className="w-full h-full object-cover"
                         src={data.foto}
                         alt={`Imagem do ${data.especie.nome} ${data.especie.nome}`}

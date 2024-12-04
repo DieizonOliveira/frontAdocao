@@ -35,7 +35,7 @@ export default function Home() {
       setAnimais(dados)
     }
     buscaDados()
-  }, [])
+  }, [logaAdotante])
 
   const listaAnimais = animais.map(animal => (
     <ItemAnimais data={animal} key={animal.id} />

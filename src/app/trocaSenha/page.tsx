@@ -1,6 +1,7 @@
 "use client";
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 
 export default function TrocaSenha() {
   const router = useRouter(); // Inicializando o router
@@ -79,7 +80,7 @@ export default function TrocaSenha() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-200  dark:bg-gray-900">
       <div className="flex flex-col items-center px-6 py-8 mx-auto md:h-screen lg:py-0">
       <a className="flex items-center space-x-3 rtl:space-x-reverse">
-                    <img src="./duvida.png" className="h-40" alt="Logo" />
+                    <Image src="./duvida.png" className="h-40" alt="Logo" />
                 </a>
       
       
