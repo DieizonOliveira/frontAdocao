@@ -27,7 +27,7 @@ export function ItemAnimais({ data }: { data: AnimalI }) {
                     <Image
                         className="w-full h-full object-cover"
                         // src={data.foto}
-                        src="https://images.unsplash.com/photo-1604079616074-14935e2ff2da?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjg2OXwwfDF8c2VhY2h8Mnx8fGJhY2tncm91bmR8ZW58MHx8fHwxNjg5NjU0NTM5&ixlib=rb-1.2.1&q=80&w=1080"
+                        src="https://blog-static.petlove.com.br/wp-content/uploads/2018/06/gato-americano-pelo-curto.jpg"
                         alt={`Imagem do ${data.especie.nome} ${data.especie.nome}`}
                         width={500}  // Defina uma largura fixa (ou use uma variável dinâmica se necessário)
                         height={300} 
