@@ -28,6 +28,8 @@ export function ItemAnimais({ data }: { data: AnimalI }) {
                         className="w-full h-full object-cover"
                         src={data.foto}
                         alt={`Imagem do ${data.especie.nome} ${data.especie.nome}`}
+                        width={500}  // Defina uma largura fixa (ou use uma variável dinâmica se necessário)
+                        height={300} 
                     />
                 </div>
             </Link>
