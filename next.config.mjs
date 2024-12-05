@@ -4,6 +4,7 @@ const nextConfig = {
       remotePatterns: [
         {
           protocol: 'https',
+          hostname: "optim.tildacdn.com",
           hostname: '**',
         },
       ],
