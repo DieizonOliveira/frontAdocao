@@ -26,10 +26,9 @@ export function ItemAnimais({ data }: { data: AnimalI }) {
                 <div className="w-full h-80 overflow-hidden">
                     <Image
                         className="w-full h-full object-cover"
-                        // src={data.foto}
-                        src="https://blog-static.petlove.com.br/wp-content/uploads/2018/06/gato-americano-pelo-curto.jpg"
+                        src={data.foto}
                         alt={`Imagem do ${data.especie.nome} ${data.especie.nome}`}
-                        width={500}  // Defina uma largura fixa (ou use uma variável dinâmica se necessário)
+                        width={200}  // Defina uma largura fixa (ou use uma variável dinâmica se necessário)
                         height={300} 
                     />
                 </div>
